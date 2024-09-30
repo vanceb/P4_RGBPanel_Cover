@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Spreadsheet">
+  <Properties Count="12" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Spreadsheet"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="PythonMode" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowCells" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="1"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+    <Property name="cells" type="Spreadsheet::PropertySheet" status="67108864">
+      <Cells Count="37">
+        <Cell address="C1" content="Datum for measurements is top center screw centre with half cover drawn to the RHS"/>
+        <Cell address="C3" content="height"/>
+        <Cell alias="height" address="D3" content="=127 mm"/>
+        <Cell address="C4" content="width"/>
+        <Cell alias="width" address="D4" content="=254 mm"/>
+        <Cell address="C5" content="thickness"/>
+        <Cell alias="thickness" address="D5" content="=2 mm"/>
+        <Cell address="C6" content="frame_width"/>
+        <Cell alias="frame_width" address="D6" content="=12 mm"/>
+        <Cell address="C7" content="bottom_screw_centres"/>
+        <Cell alias="bottom_screw_centres" address="D7" content="=120 mm"/>
+        <Cell address="C8" content="side_screw_centres"/>
+        <Cell alias="side_screw_centres" address="D8" content="=111.5 mm"/>
+        <Cell address="C9" content="screw_center_to_edge"/>
+        <Cell alias="screw_centre_to_edge" address="D9" content="=7.5 mm"/>
+        <Cell address="C10" content="screw_center_to_nipple"/>
+        <Cell alias="screw_centre_to_nipple" address="D10" content="=32.5 mm"/>
+        <Cell address="C11" content="nipple_hole_dia"/>
+        <Cell alias="nipple_hole_dia" address="D11" content="=3.2 mm"/>
+        <Cell address="C12" content="screw_hole_dia"/>
+        <Cell alias="screw_hole_dia" address="D12" content="=3.5 mm"/>
+        <Cell address="C13" content="screw_head_dia"/>
+        <Cell alias="screw_head_dia" address="D13" content="=7 mm"/>
+        <Cell address="C14" content="m3"/>
+        <Cell alias="m3" address="D14" content="=3.5 mm"/>
+        <Cell address="C15" content="screw_head_depth"/>
+        <Cell alias="screw_head_depth" address="D15" content="=5 mm"/>
+        <Cell address="C16" content="nipple_hole_depth"/>
+        <Cell alias="nipple_hole_depth" address="D16" content="=5 mm"/>
+        <Cell address="C17" content="hanging_screw_hole_dia"/>
+        <Cell alias="hanging_screw_hole_dia" address="D17" content="=10 mm"/>
+        <Cell address="C18" content="hanging_screw_offset"/>
+        <Cell alias="hanging_screw_offset" address="D18" content="=12 mm"/>
+        <Cell address="C19" content="cable_exit_side_dia"/>
+        <Cell alias="cable_exit_side_dia" address="D19" content="=5 mm"/>
+        <Cell address="C20" content="cable_exit_back_dia"/>
+        <Cell alias="cable_exit_back_dia" address="D20" content="=12 mm"/>
+      </Cells>
+    </Property>
+    <Property name="columnWidths" type="Spreadsheet::PropertyColumnWidths" status="218103808">
+      <ColumnInfo Count="1">
+        <Column name="C" width="212" />
+      </ColumnInfo>
+    </Property>
+    <Property name="hiddenColumns" type="App::PropertyIntegerSet" status="201326592">
+      <IntegerSet count="0">
+      </IntegerSet>
+    </Property>
+    <Property name="hiddenRows" type="App::PropertyIntegerSet" status="201326592">
+      <IntegerSet count="0">
+      </IntegerSet>
+    </Property>
+    <Property name="rowHeights" type="Spreadsheet::PropertyRowHeights" status="218103808">
+      <RowInfo Count="0">
+      </RowInfo>
+    </Property>
+  </Properties>
+</Object>
+</Document>
